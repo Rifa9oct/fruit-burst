@@ -35,11 +35,45 @@
             font-family: 'Lato', sans-serif;
         }
       </style>
-      
+
 </head>
 <body class="lato-font">
     <header>
+     <!-- Navbar section -->
+        <nav class="max-w-screen-xl  mx-5 lg:mx-auto">
+            <div class="navbar flex justify-between items-center mt-12 lg:pl-[60px] lg:pr-[50px] lg:py-8  lg:bg-[#F85559] rounded-[600px] ">
+                <ul class="flex items-center gap-[30px] text-lg text-white  hidden lg:flex">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+                <div class="flex items-center gap-4">
+                    <img class="w-[27px] lg:w-[54px]" src="images/logo.png" alt="">
+                    <h1 class="text-xl lg:text-5xl font-bold text-black lg:text-white">Fruit Burst</h1>
+                </div>
 
+              <!-- input box -->
+                <div class="hidden lg:flex bg-white px-[30px] py-5 rounded-[50px] flex justify-between items-center">
+                    <input class="w-[400px] border-none outline-none text-base border-none text-[#12121266]" type="text" placeholder="Search here"/>
+                    <i class="fa-solid fa-magnifying-glass text-2xl border-none outline-none"></i>                   
+                </div>
+              <!-- dropdown bar -->
+                <div class="dropdown dropdown-end lg:hidden">
+                    <label tabindex="0">
+                    <div>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    </label>
+                    <ul tabindex="0" class="dropdown-content z-[1] p-2 w-24">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+            </div>       
+        </nav>
     </header>
     <main>
 
